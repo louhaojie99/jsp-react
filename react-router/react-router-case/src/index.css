@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	overflow: hidden;
+	height: 100%;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+ul,
+ol,
+li {
+	list-style-type: none;
+	text-decoration: underline;
+}
+li {
+	font-size: 20px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+a:hover {
+	color: #ff0000;
+}
+
+/* appRouter */
+#root {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.app_container {
+	display: flex;
+	height: 100%;
+	background-color: #ff0000;
+}
+.app_container .aside {
+	width: 20%;
+	padding: 20px;
+	background-color: #c1c1c1;
+}
+.app_container .main {
+	flex: 1;
+	background-color: #ffffff;
+}
+
+.topNav ul {
+	display: flex;
+	align-items: center;
+	background-color: rgba(116, 116, 224, 0.8);
+	height: 80px;
+}
+.topNav ul li {
+	margin-right: 30px;
+}
